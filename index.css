@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: #f0f1f1;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+main{
+    padding: 30px 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    background-color: #1C8894;
+    text-align: center;
+    color: #f0f1f1;
+}
+
+.card{
+    background-color: #fff;
+    border: 1px solid #1C8894;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.lineInput{
+    display: grid;
+    margin-bottom: 10px;
+}
+
+.lineInput label{
+    margin-bottom: 5px;
+}
+
+.lineInput input{
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    outline: 0; 
+}
+
+.lineInput .checkbox{
+    box-shadow: inset 0px 0px 3px 1px #0000006b;
+}
+
+.lineInput .label-checkbox{
+    padding-bottom: 5px;
+}
+
+button{
+    border: 0;
+    padding: 10px;
+    outline: 0;
+    background-color: #1C8894;
+    color: #f0f1f1;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: #166c75;
+}
+
+.content {
+    margin-top: 15px;
+}
+
+.content button{
+    margin: 5px 5px 5px 0;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+table th{
+    background-color: rgb(214,214,214);
+    padding: 1px;
+    text-align: center;
+}
+
+table tbody td{
+    text-align: center;
+}
